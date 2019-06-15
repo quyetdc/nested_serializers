@@ -14,3 +14,7 @@ book2 = Book.create({title: 'Second book', author_id: author2.id})
 
 page = Page.create({number: '1', book_id: book.id})
 page2 = Page.create({number: '1', book_id: book2.id})
+
+detail = Detail.create(author_id: 1, book_id: 1)
+detail = Detail.create(author_id: 1, book_id: 2)
+detail = Detail.create(author_id: 2, book_id: 2)
